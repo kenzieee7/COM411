@@ -1,12 +1,9 @@
-avoid=int(input("How many obstacles must i avoid"))
-num_of_ob= 0
+charge=int(input("How many bars shoudl be charged"))
 
-while num_of_ob < avoid:
+bars= 0
 
-    print("Avoiding",num_of_ob + 1)
-
-    num_of_ob= num_of_ob + 1
-
-print("Done!", avoid,"obstacles avoided")
-print("All obstacles has been avoided")
-
+while bars < charge:
+    #increment variable at some point
+    print("Charging","█")
+    charge=charge-1
+print("The battery is fully charged")
