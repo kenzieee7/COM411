@@ -1,10 +1,12 @@
-option=int(input("How many apples should i remove"))
-apples= 0
+avoid=int(input("How many obstacles must i avoid"))
+num_of_ob= 0
 
-#if apples are less than option then run this loop
-while apples < option:
-    #display message
-    print("remove apple")
-    #When apples is less than option Run and print
-    apples= apples + 1
+while num_of_ob < avoid:
+
+    print("Avoiding",num_of_ob + 1)
+
+    num_of_ob= num_of_ob + 1
+
+print("Done!", avoid,"obstacles avoided")
+print("All obstacles has been avoided")
 
