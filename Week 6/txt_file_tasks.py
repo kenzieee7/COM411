@@ -1,11 +1,13 @@
 import os
+#Getting File PATH from Current Directory
+current= os.getcwd()
 
-def cwd():
-    path = os.getcwd()
-    print(f"Current Working Directory: {path} \n")
+with open("library.txt") as file:
+    text= file.read() #readline works on stricly 1 line at a time
+    numb=len(text)
 
-    print("The directory contains the following files : ")
-    for file in os.listdir(path):
-        print("\n",file)
-cwd()
+
+    def display_char(current,numb):
+
+     display_char()
 
